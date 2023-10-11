@@ -1,4 +1,22 @@
-﻿Charakteristické rysy formátu YAML:
+YAML:
+a. Čitelný pro lidi, vhodný pro konfigurační soubory.
+b. Podporuje vnořené struktury dat a zápis pomocí odsazení.
+c. Nepoužívá oddělovače (čárky, středníky) mezi položkami.
+d. Podporuje komentáře s použitím znaku "#".
+e. Rozšířený na podporu různých datových typů (čísla, řetězce, seznamy atd.).
+f. Není tak široce podporován jako CSV.
+
+CSV:
+a. Jednoduchý tabulkový formát s oddělovačem (často čárkou).
+b. Používá se pro ukládání dat ve formě matic (řádky a sloupce).
+c. Není určen pro vnořené struktury nebo složitější datové typy.
+d. Často se používá pro výměnu dat mezi různými aplikacemi.
+e. Podporuje formátování textu s uvozovkami.
+f. Často vyžaduje speciální zpracování pro zacházení s odlišnými znaky.
+
+
+
+Charakteristické rysy formátu YAML:
 a. Zápis je založen na povinném odsazování podřízených částí kódu.
 b. Data jsou ukládána v podobě "název": hodnota.
 c. Zadávání komentářů v tomto formátu je shodné s webovými stránkami.
