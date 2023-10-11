@@ -1,0 +1,73 @@
+﻿Charakteristické rysy formátu YAML:
+a. Zápis je založen na povinném odsazování podřízených částí kódu.
+b. Data jsou ukládána v podobě "název": hodnota.
+c. Zadávání komentářů v tomto formátu je shodné s webovými stránkami.
+d. Formát nepoužívá hierarchickou strukturu (vnořování podřízených částí).
+
+
+Typické rysy souborů ve formátu CSV:
+a. Jednoduchá tabulková struktura s hodnotami oddělenými čárkou.
+b. Často používá se jako formát pro ukládání datových souborů.
+c. Neobsahuje hierarchickou strukturu jako JSON nebo XML.
+d. Sloupce jsou odděleny čárkami, a řádky reprezentují záznamy.
+
+
+Příklady praktického použití formátu JSON:
+a. Konfigurace webových aplikací.
+b. Výměna dat mezi různými programovacími jazyky.
+c. Ukládání dat v databázích (NoSQL databáze, MongoDB).
+d. Komunikace mezi klientem a serverem v RESTful API.
+
+
+Různé příklady praktického využití formátu XML:
+a. Popis struktury webových stránek pomocí XHTML.
+b. Konfigurace a nastavení uživatelských rozhraní ve frameworku Android.
+c. Ukládání dat v OpenOffice nebo Microsoft Office dokumentech.
+d. Výměna dat mezi různými aplikacemi pomocí SOAP (Simple Object Access Protocol).
+
+
+Přiřazení formátů:
+a. Zadávání komentářů v tomto formátu je shodné s webovými stránkami (YAML).
+b. Formát nepoužívá hierarchickou strukturu (vnořování podřízených částí) (CSV).
+c. Zápis je založen na povinném odsazování podřízených částí kódu (YAML).
+d. Data jsou ukládána v podobě "název": hodnota (JSON).
+
+
+Platná tvrzení o formátu JSON:
+a. Ve formátu JSON je nezbytně nutné odsazovat vnořené objekty (Neplatné).
+b. Součástí jednoho objektu ve formátu JSON nemohou být hodnoty různých datových typů (Platné).
+c. Ve formátu JSON musí být názvy všech atributů uvedeny v uvozovkách (Platné).
+d. Do hranatých závorek jsou ve formátu JSON uzavřeny hodnoty typu array (Platné).
+e. Bývá dobrým zvykem zakončit každý řádek ve formátu JSON středníkem (Neplatné).
+f. Ve formátu JSON můžeme přenášet přímo i binární data (např. obrázky, audio atd.) (Platné).
+g. Ve formátu JSON musí být všechny hodnoty uvedeny v uvozovkách (Neplatné).
+h. Koddělení jednotlivých objektů ve formátu JSON se používají čárky (Platné).
+
+
+Platná tvrzení o formátu YAML:
+a. Formát YAML se svým zápisem nejvíce podobá Programovacímu jazyku JavaScript (Neplatné).
+b. Formát YAML se svým zápisem nejvíce podobá Programovacímu jazyku Python (Platné).
+c. Formát YAML patří mezi značkovací jazyky (Platné).
+d. Dokument ve formátu YAML může být zkompilován do binární podoby (Neplatné).
+e. Formát YAML se nepoužívá k ukládání datových souborů (Neplatné).
+f. Formát YAML se využívá ke konfiguraci docker kontejnerů (Platné).
+
+
+Vlastnosti formátu XML:
+a. Za každým elementem musí být v XML dokumentu ukončen řádek (Platné).
+b. Názvy tagů v XML dokumentu musí být zadány pouze malými písmeny (Neplatné).
+c. Na začátku XML dokumentu musí být informace o jeho kódování (Platné).
+d. Značky v XML dokumentu musí být správně vnořovány (Platné).
+e. V XML dokumentu je nezbytné dodržovat odsazení vnořených elementů (Neplatné).
+f. Hodnoty přiřazené k atributům v XML dokumentu musí být zapsány do uvozovek (Platné).
+g. XML dokument musí obsahovat tzv. kořenovou značku (root tag) (Platné).
+h. Tagy v XML dokumentu musí být párové (Platné).
+
+
+Platná tvrzení o praktickém využití formátu CSV:
+a. CSV soubory lze vytvořit a uložit pomocí tabulkových procesorů (např. MS Excel) (Platné).
+b. CSV soubory se běžně používají k přenosu dat mezi webovým klientem a webovým serverem (Platné).
+c. CSV soubor se alternativně používá pro konfiguraci kontejnerů v Dockeru (Neplatné).
+d. Do CSV souboru lze zaznamenat také binární data (Neplatné).
+e. CSV soubor lze použít k importu i exportu adresáře kontaktů v Outlooku (Platné).
+f. CSV soubor je možné použít k vytvoření tabulky v relační databázi (Platné).
